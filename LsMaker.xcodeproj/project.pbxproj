@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924A85441E6DDF5E00E3ECCD /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A85431E6DDF5E00E3ECCD /* DrawerMenuViewController.swift */; };
+		924A85461E71C22B00E3ECCD /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A85451E71C22B00E3ECCD /* GlobalState.swift */; };
+		924A85481E71CA7C00E3ECCD /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A85471E71CA7C00E3ECCD /* DevicesViewController.swift */; };
+		925F54281E79BF540007B5D5 /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F54271E79BF540007B5D5 /* BTDiscovery.swift */; };
+		925F542A1E79BF970007B5D5 /* BTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925F54291E79BF970007B5D5 /* BTService.swift */; };
+		927306031E6DD95300192DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927306021E6DD95300192DD3 /* AppDelegate.swift */; };
+		927306051E6DD95300192DD3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927306041E6DD95300192DD3 /* SettingsViewController.swift */; };
+		927306081E6DD95300192DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927306061E6DD95300192DD3 /* Main.storyboard */; };
+		9273060D1E6DD95300192DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9273060B1E6DD95300192DD3 /* LaunchScreen.storyboard */; };
+		92AC0B4D1E866DC7006A935C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AC0B4C1E866DC7006A935C /* Assets.xcassets */; };
+		92AC0B4F1E866E76006A935C /* DrivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC0B4E1E866E76006A935C /* DrivingViewController.swift */; };
+		92AC0B511E86DEAD006A935C /* BluetoothMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC0B501E86DEAD006A935C /* BluetoothMessageFormatter.swift */; };
+		AC46D968FBEA59F0D6FDC38B /* Pods_LsMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA275B18C4B2CAE90D9D87A2 /* Pods_LsMaker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EB3402AF357DB93197D3C3B /* Pods-LsMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LsMaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LsMaker/Pods-LsMaker.debug.xcconfig"; sourceTree = "<group>"; };
+		507E2DE79988ABEF282C3932 /* Pods-LsMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LsMaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-LsMaker/Pods-LsMaker.release.xcconfig"; sourceTree = "<group>"; };
+		924A85431E6DDF5E00E3ECCD /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		924A85451E71C22B00E3ECCD /* GlobalState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		924A85471E71CA7C00E3ECCD /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		925F54271E79BF540007B5D5 /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
+		925F54291E79BF970007B5D5 /* BTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTService.swift; sourceTree = "<group>"; };
+		927305FF1E6DD95300192DD3 /* LsMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LsMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927306021E6DD95300192DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		927306041E6DD95300192DD3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		927306071E6DD95300192DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9273060C1E6DD95300192DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9273060E1E6DD95300192DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AC0B4C1E866DC7006A935C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AC0B4E1E866E76006A935C /* DrivingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingViewController.swift; sourceTree = "<group>"; };
+		92AC0B501E86DEAD006A935C /* BluetoothMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothMessageFormatter.swift; sourceTree = "<group>"; };
+		AA275B18C4B2CAE90D9D87A2 /* Pods_LsMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LsMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		927305FC1E6DD95300192DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC46D968FBEA59F0D6FDC38B /* Pods_LsMaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E607BE8247915285AFA99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA275B18C4B2CAE90D9D87A2 /* Pods_LsMaker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		925F54261E79BF250007B5D5 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				925F54271E79BF540007B5D5 /* BTDiscovery.swift */,
+				925F54291E79BF970007B5D5 /* BTService.swift */,
+				92AC0B501E86DEAD006A935C /* BluetoothMessageFormatter.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		927305F61E6DD95300192DD3 = {
+			isa = PBXGroup;
+			children = (
+				927306011E6DD95300192DD3 /* LsMaker */,
+				927306001E6DD95300192DD3 /* Products */,
+				C4CBFCA4C6552FA03646896A /* Pods */,
+				06E607BE8247915285AFA99E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		927306001E6DD95300192DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				927305FF1E6DD95300192DD3 /* LsMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927306011E6DD95300192DD3 /* LsMaker */ = {
+			isa = PBXGroup;
+			children = (
+				927306141E6DD95B00192DD3 /* Supporting Files */,
+				927306041E6DD95300192DD3 /* SettingsViewController.swift */,
+				925F54261E79BF250007B5D5 /* Bluetooth */,
+				924A85431E6DDF5E00E3ECCD /* DrawerMenuViewController.swift */,
+				924A85471E71CA7C00E3ECCD /* DevicesViewController.swift */,
+				924A85451E71C22B00E3ECCD /* GlobalState.swift */,
+				927306061E6DD95300192DD3 /* Main.storyboard */,
+				92AC0B4E1E866E76006A935C /* DrivingViewController.swift */,
+			);
+			path = LsMaker;
+			sourceTree = "<group>";
+		};
+		927306141E6DD95B00192DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AC0B4C1E866DC7006A935C /* Assets.xcassets */,
+				927306021E6DD95300192DD3 /* AppDelegate.swift */,
+				9273060B1E6DD95300192DD3 /* LaunchScreen.storyboard */,
+				9273060E1E6DD95300192DD3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4CBFCA4C6552FA03646896A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB3402AF357DB93197D3C3B /* Pods-LsMaker.debug.xcconfig */,
+				507E2DE79988ABEF282C3932 /* Pods-LsMaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		927305FE1E6DD95300192DD3 /* LsMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927306111E6DD95300192DD3 /* Build configuration list for PBXNativeTarget "LsMaker" */;
+			buildPhases = (
+				0F165FE404A0348185542EC1 /* [CP] Check Pods Manifest.lock */,
+				927305FB1E6DD95300192DD3 /* Sources */,
+				927305FC1E6DD95300192DD3 /* Frameworks */,
+				927305FD1E6DD95300192DD3 /* Resources */,
+				31DFE036BA57A5FDBF07F7A6 /* [CP] Embed Pods Frameworks */,
+				60DF6D3FD873B170633E4C17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LsMaker;
+			productName = LsMaker;
+			productReference = 927305FF1E6DD95300192DD3 /* LsMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		927305F71E6DD95300192DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LaSalle;
+				TargetAttributes = {
+					927305FE1E6DD95300192DD3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BGB8Y895V8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 927305FA1E6DD95300192DD3 /* Build configuration list for PBXProject "LsMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 927305F61E6DD95300192DD3;
+			productRefGroup = 927306001E6DD95300192DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				927305FE1E6DD95300192DD3 /* LsMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		927305FD1E6DD95300192DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9273060D1E6DD95300192DD3 /* LaunchScreen.storyboard in Resources */,
+				92AC0B4D1E866DC7006A935C /* Assets.xcassets in Resources */,
+				927306081E6DD95300192DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F165FE404A0348185542EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31DFE036BA57A5FDBF07F7A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LsMaker/Pods-LsMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60DF6D3FD873B170633E4C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LsMaker/Pods-LsMaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		927305FB1E6DD95300192DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AC0B4F1E866E76006A935C /* DrivingViewController.swift in Sources */,
+				927306051E6DD95300192DD3 /* SettingsViewController.swift in Sources */,
+				924A85481E71CA7C00E3ECCD /* DevicesViewController.swift in Sources */,
+				927306031E6DD95300192DD3 /* AppDelegate.swift in Sources */,
+				924A85461E71C22B00E3ECCD /* GlobalState.swift in Sources */,
+				92AC0B511E86DEAD006A935C /* BluetoothMessageFormatter.swift in Sources */,
+				925F542A1E79BF970007B5D5 /* BTService.swift in Sources */,
+				925F54281E79BF540007B5D5 /* BTDiscovery.swift in Sources */,
+				924A85441E6DDF5E00E3ECCD /* DrawerMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		927306061E6DD95300192DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				927306071E6DD95300192DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9273060B1E6DD95300192DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9273060C1E6DD95300192DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9273060F1E6DD95300192DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		927306101E6DD95300192DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927306121E6DD95300192DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB3402AF357DB93197D3C3B /* Pods-LsMaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGB8Y895V8;
+				INFOPLIST_FILE = LsMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.salleurl.LsMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		927306131E6DD95300192DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507E2DE79988ABEF282C3932 /* Pods-LsMaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGB8Y895V8;
+				INFOPLIST_FILE = LsMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.salleurl.LsMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		927305FA1E6DD95300192DD3 /* Build configuration list for PBXProject "LsMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9273060F1E6DD95300192DD3 /* Debug */,
+				927306101E6DD95300192DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927306111E6DD95300192DD3 /* Build configuration list for PBXNativeTarget "LsMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927306121E6DD95300192DD3 /* Debug */,
+				927306131E6DD95300192DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 927305F71E6DD95300192DD3 /* Project object */;
+}
